@@ -1,6 +1,5 @@
 # MapLibreGLJS 学习笔记
 
-
 显示卫星地图
 ```
 const map = new maplibregl.Map({
@@ -26,5 +25,11 @@ const map = new maplibregl.Map({
     }
 });
 
+
+```
+***
+查看全屏地图
+```
+map.addControl(new maplibregl.FullscreenControl());
 
 ```
