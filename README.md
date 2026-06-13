@@ -35,3 +35,16 @@ const map = new maplibregl.Map({
 map.addControl(new maplibregl.FullscreenControl());
 
 ```
+***
+
+向地图添加缩放和旋转控件
+
+```
+map.addControl(new maplibregl.NavigationControl({
+      visualizePitch: true,
+      visualizeRoll: true,
+      showZoom: true,
+      showCompass: true
+    }));
+```
+
